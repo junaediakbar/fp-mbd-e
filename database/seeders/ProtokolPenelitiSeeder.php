@@ -15,7 +15,7 @@ class ProtokolPenelitiSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 100001; $i <= 1000000; $i++) {
+        for ($i = 1; $i <= 100000; $i++) {
             $faker = Factory::create('id_ID');
 
             DB::table('protokol_peneliti')->insert([

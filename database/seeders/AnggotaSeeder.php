@@ -32,20 +32,20 @@ class AnggotaSeeder extends Seeder
         //     }
         // }
 
-        $id = 3;
-        $ch = 'AAAA';
+        $id = 200003;
+        $ch = 'AAA3';
 
-        for ($i = 1; $i <= 200000; $i++) {
-            $offset = rand(1, 100004);
+        for ($i = 200001; $i <= 1000000; $i++) {
+            $offset = rand(200001, 1000000);
 
             $faker = Factory::create();
 
             // if ($ch == 'L' || $ch == 'P') {
             //     $ch++;
             // }
-            if ($id == 9) {
+            if ($id == 200009) {
                 $ch++;
-                $id = 1;
+                $id = 200001;
             }
 
             // if ($ch != 'L' && $ch != 'P') {

@@ -17,7 +17,7 @@ class ProtokolSeeder extends Seeder
     {
 
 
-        for ($i = 100001; $i <= 1000000; $i++) {
+        for ($i = 6; $i <= 1000000; $i++) {
             $faker = Factory::create('id_ID');
             $rand_id = rand(1, 1000000);
 
